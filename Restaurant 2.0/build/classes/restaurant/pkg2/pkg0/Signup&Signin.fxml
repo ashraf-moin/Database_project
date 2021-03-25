@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="585.0" prefWidth="720.0" style="-fx-background-color: #c0392b;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restaurant.pkg2.pkg0.Signup_SigninController">
+   <children>
+      <Pane prefHeight="121.0" prefWidth="720.0" style="-fx-background-color: #e67e22;">
+         <children>
+            <Label layoutX="211.0" layoutY="24.0" prefHeight="90.0" prefWidth="309.0" text="Welcome To AmiKhabo">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="signup" accessibleRole="DATE_PICKER" layoutX="293.0" layoutY="219.0" mnemonicParsing="false" onAction="#signupbtn" prefHeight="74.0" prefWidth="147.0" style="-fx-background-color: #2c2c2c;" text="Sign up" textFill="#e1e1e1">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <Button fx:id="Signin" layoutX="293.0" layoutY="366.0" mnemonicParsing="false" onAction="#signinbtn" style="-fx-background-color: #2c2c2c;" text="Sign in" textFill="#ededed">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restaurant.pkg2.pkg0.Signup_pageController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="585.0" prefWidth="720.0" style="-fx-background-color: #c0392b;">
+         <children>
+            <Pane prefHeight="121.0" prefWidth="720.0" style="-fx-background-color: #e67e22;">
+               <children>
+                  <Label layoutX="262.0" layoutY="28.0" prefHeight="66.0" prefWidth="196.0" text="Create Account" textAlignment="CENTER">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Button fx:id="Createbtn" layoutX="288.0" layoutY="365.0" mnemonicParsing="false" onAction="#Createbtn" style="-fx-background-color: #2c2c2c;" text="Create" textFill="#ededed">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Button>
+            <TextField layoutX="286.0" layoutY="193.0" promptText="Syed Sadman ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <Label layoutX="120.0" layoutY="193.0" prefHeight="44.0" prefWidth="135.0" style="-fx-background-color: #e67e22;" text="User Name">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <TextField layoutX="286.0" layoutY="271.0" promptText="1911704642">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <Label layoutX="120.0" layoutY="271.0" prefHeight="44.0" prefWidth="135.0" style="-fx-background-color: #e67e22;" text="Password">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Button fx:id="backbtn" layoutX="567.0" layoutY="497.0" mnemonicParsing="false" onAction="#Backbtn" prefHeight="44.0" prefWidth="123.0" style="-fx-background-color: #2c2c2c;" text="Back" textFill="#ededed">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="585.0" prefWidth="720.0" style="-fx-background-color: #c0392b;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restaurant.pkg2.pkg0.FoodinfoController">
+   <children>
+      <Pane prefHeight="121.0" prefWidth="720.0" style="-fx-background-color: #e67e22;">
+         <children>
+            <Label layoutX="248.0" layoutY="28.0" prefHeight="66.0" prefWidth="225.0" text="Food Information" textAlignment="CENTER">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button layoutX="593.0" layoutY="493.0" mnemonicParsing="false" onAction="#backtomenu" prefHeight="66.0" prefWidth="97.0" style="-fx-background-color: #2c2c2c;" text="Back" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextArea editable="false" layoutX="118.0" layoutY="138.0" prefHeight="309.0" prefWidth="484.0" text="Food name        Prize&#10;Pizza                   799 &#10;Burger                399  &#10;">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

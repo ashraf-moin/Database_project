@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="585.0" prefWidth="720.0" style="-fx-background-color: #c0392b;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restaurant.pkg2.pkg0.AddinfoController">
+   <children>
+      <Pane prefHeight="121.0" prefWidth="720.0" style="-fx-background-color: #e67e22;">
+         <children>
+            <Label layoutX="254.0" layoutY="28.0" prefHeight="66.0" prefWidth="212.0" text="Add Information" textAlignment="CENTER">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="backtomenu" layoutX="593.0" layoutY="487.0" mnemonicParsing="false" onAction="#backtomenu" prefHeight="66.0" prefWidth="97.0" style="-fx-background-color: #2c2c2c;" text="Back" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Label layoutX="139.0" layoutY="145.0" prefHeight="55.0" prefWidth="97.0" text="Name :" textAlignment="CENTER">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="135.0" layoutY="200.0" prefHeight="55.0" prefWidth="202.0" text="Phone Number :" textAlignment="CENTER">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="247.0" prefHeight="55.0" prefWidth="107.0" text="Salary :" textAlignment="CENTER">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <TextField layoutX="369.0" layoutY="153.0" onAction="#addinfo_name" promptText="Kabila Rahman">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="369.0" layoutY="208.0" onAction="#addinfo_phonenumber" promptText="01*********">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="369.0" layoutY="255.0" onAction="#salary" promptText="500.00">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="saveinfo" layoutX="321.0" layoutY="380.0" mnemonicParsing="false" onAction="#saveinfo" prefHeight="66.0" prefWidth="97.0" style="-fx-background-color: green;" text="Save" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
